@@ -148,6 +148,9 @@
   .footer {
     margin-top: 125px;
   }
+  .testimonials-bg-image{
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
@@ -360,8 +363,10 @@
     margin-right: 30px;
   }
 
+
 }
 @media (max-width: 767px) {
+
   .language-select-wrapper{
     display: none;
   }

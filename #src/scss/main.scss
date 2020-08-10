@@ -1199,3 +1199,33 @@ h2.inner-title{
     display: none;
   }
 }
+.testimonials-card-wrapper{
+  margin: 0 auto 50px;
+  max-width: 900px;
+}
+.testimonials{
+  position: relative;
+}
+.left-image-1{
+  position: absolute;
+
+}
+.position-absolute{
+  position: absolute;
+}
+.left-image-1{
+  top: 20%;
+}
+.left-image-2{
+  top: 80%;
+}
+.right-image-1{
+  top: -10%;
+  right: 0;
+  left: auto;
+}
+.right-image-2{
+  top: 45%;
+  right: 0;
+  left: auto;
+}
