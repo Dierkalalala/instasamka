@@ -9627,6 +9627,115 @@ h2.inner-title {
   margin-bottom: 20px;
 }
 
+.small-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.blog-page-section .blog-row .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.blog-navigation li a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin-bottom: 10px;
+  border: 1px solid #DFDFDF;
+  transition: 0.3s linear all;
+  font-family: Trajan, sans-serif;
+  text-decoration: none;
+}
+
+.blog-navigation li a:hover {
+  border-color: #E094A5;
+}
+
+.blog-navigation li a.active {
+  border-color: #E094A5;
+}
+
+.blog-navigation {
+  margin-bottom: 40px;
+}
+
+.blog-video-course-small-card {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.blog-video-course-small-card .title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.blog-video-course-small-card .card-features {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.blog-video-course-small-card .default-button {
+  text-align: center;
+  padding: 10px 24px;
+}
+
+.video-courses-small-card-img-wrap {
+  width: 119px;
+  min-width: 119px;
+  height: 119px;
+  margin-right: 11px;
+}
+
+.video-courses-small-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog-video-courses-wrapper {
+  margin-bottom: 30px;
+}
+
+.small-blog-post-image-wrap {
+  width: 119px;
+  height: 69px;
+  min-width: 119px;
+  margin-right: 11px;
+}
+
+.small-blog-post-image-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-blog-post-text-wrap h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.small-blog-post-wrapper {
+  margin-bottom: 30px;
+}
+
+.small-blog-post-wrapper:hover .title {
+  color: #E094A5;
+}
+
+.title {
+  transition: 0.3s linear all;
+}
+
 @media (max-width: 1600px) {
   .header-right-sided-block .header-navigation {
     margin-right: 20px;
@@ -9695,6 +9804,31 @@ h2.inner-title {
   .mailing-text-wrap p {
     font-size: 14px;
     line-height: 1.1;
+  }
+  .price-row .old-price {
+    font-size: 12px;
+  }
+  .price-row .price {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .small-blog-post-text-wrap h4 {
+    font-size: 12px;
+  }
+  .small-blog-post-image-wrap {
+    width: 100px;
+    height: 69px;
+    min-width: 100px;
+    margin-right: 11px;
+  }
+  .blog-video-course-small-card .title {
+    font-size: 12px;
+  }
+  .video-courses-small-card-img-wrap {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    margin-right: 5px;
   }
 }
 
@@ -10016,6 +10150,29 @@ h2.inner-title {
 }
 
 @media (max-width: 767px) {
+  .video-courses-small-card-img-wrap {
+    width: 119px;
+    min-width: 119px;
+    height: 119px;
+    margin-right: 11px;
+  }
+  .small-blog-post-image-wrap {
+    width: 119px;
+    height: 69px;
+    min-width: 119px;
+    margin-right: 11px;
+  }
+  .price-row .price {
+    color: #C72849;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  .price-row .old-price {
+    font-size: 16px;
+  }
+  .blog-video-course-small-card-text-wrapper .price-row {
+    justify-content: flex-start;
+  }
   .language-select-wrapper {
     display: none;
   }
@@ -10288,6 +10445,12 @@ h2.inner-title {
   }
   .product-description-text-wrap {
     padding: 0;
+  }
+  .small-title {
+    text-align: center;
+  }
+  .blog-navigation-wrapper {
+    margin-top: 50px;
   }
 }
 

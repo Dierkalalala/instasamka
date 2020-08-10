@@ -71,6 +71,31 @@
       line-height: 1.1;
     }
   }
+  .price-row .old-price{
+    font-size: 12px;
+  }
+  .price-row .price{
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .small-blog-post-text-wrap h4{
+    font-size: 12px;
+  }
+  .small-blog-post-image-wrap {
+    width: 100px;
+    height: 69px;
+    min-width: 100px;
+    margin-right: 11px;
+  }
+  .blog-video-course-small-card .title{
+    font-size: 12px;
+  }
+  .video-courses-small-card-img-wrap {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    margin-right: 5px;
+  }
 
 }
 
@@ -177,6 +202,7 @@
   .product-inner-title{
     font-size: 26px;
   }
+
 
 }
 
@@ -393,7 +419,31 @@
 
 }
 @media (max-width: 767px) {
-
+  .video-courses-small-card-img-wrap {
+    width: 119px;
+    min-width: 119px;
+    height: 119px;
+    margin-right: 11px;
+  }
+  .small-blog-post-image-wrap {
+    width: 119px;
+    height: 69px;
+    min-width: 119px;
+    margin-right: 11px;
+  }
+  .price-row .price {
+    color: #C72849;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  .price-row .old-price{
+    font-size: 16px;
+  }
+  .blog-video-course-small-card-text-wrapper {
+    .price-row{
+      justify-content: flex-start;
+    }
+  }
   .language-select-wrapper{
     display: none;
   }
@@ -672,6 +722,12 @@
   }
   .product-description-text-wrap{
     padding: 0;
+  }
+  .small-title{
+    text-align: center;
+  }
+  .blog-navigation-wrapper{
+    margin-top: 50px;
   }
 
 }
