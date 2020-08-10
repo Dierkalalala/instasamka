@@ -38,10 +38,12 @@ var testimonialsSlider = new Swiper('.testimonials-swiper', {
         el: '.swiper-pagination',
     },
 });
-
-var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
-
+try {
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+} catch (e) {
+    console.log(e)
+}
 
 function Burger(burger, menu) {
     this.burger = burger
@@ -76,7 +78,46 @@ function Burger(burger, menu) {
         // console.log(e)
     }
 }
+
 let headerBurger = new Burger(
     document.querySelector('.burger'),
     document.querySelector('.header-burger-menu')
 )
+
+function ProgramTabs(tabTrigger, tabContentWrapper) {
+    this.tab = tabTrigger
+    this.tabContent = tabContentWrapper
+    let self = this
+
+    Array.from(this.tab).forEach(tab => {
+        tab.addEventListener('click', changeTheTab)
+    })
+
+    function closeTabs() {
+        Array.from(self.tabContent.children).forEach(tab => {
+            tab.classList.remove('active')
+        })
+        Array.from(self.tab).forEach(tab => {
+            tab.classList.remove('active')
+        })
+
+    }
+
+    function changeTheTab(e) {
+        e.preventDefault()
+        let index = Array.from(this.parentNode.children).indexOf(this)
+        closeTabs()
+        self.tabContent.children[index].classList.add('active')
+        this.classList.add('active')
+
+    }
+}
+
+try {
+    let websiteTabs = new ProgramTabs(
+        document.querySelectorAll('.tab-trigger'),
+        document.querySelector('.tabs-content-wrapper'),
+    )
+} catch (e) {
+    console.log(e);
+}
