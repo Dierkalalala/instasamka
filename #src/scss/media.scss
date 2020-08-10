@@ -151,6 +151,33 @@
   .testimonials-bg-image{
     display: none;
   }
+  .product-inner-video-wrap {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .product-inner-video-title{
+    width: 100%;
+  }
+  .product-inner-video-wrapper {
+    height: 100%;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .product-inner-video-wrapper{
+    height: auto;
+  }
+  .product-image-wrap img{
+    object-fit: cover;
+  }
+  .product-inner-title{
+    font-size: 26px;
+  }
+
 }
 
 @media (max-width: 991px) {
@@ -554,6 +581,97 @@
       margin-bottom: 25px;
       margin-right: 0;
     }
+  }
+  .product-image-wrap{
+    margin-bottom: 20px;
+  }
+  .breadcrumb{
+    padding-top: 20px;
+  }
+
+  .product-image-wrap{
+    height: auto;
+  }
+  .product-inner-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .product-inner-text{
+    margin-bottom: 15px;
+  }
+  .product-inner-page-last-row-wrapper{
+    flex-direction: column;
+    align-items: flex-start !important;
+    .price-row{
+      margin-bottom: 15px;
+    }
+    .default-button{
+      width: 229px;
+      height: 60px;
+      text-align: center;
+    }
+  }
+  .product-share-mobile{
+    display: block;
+  }
+  .product-share-desktop{
+    display: none;
+  }
+  .product-share-mobile{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .product-inner-video-wrap {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .section-inner {
+    padding-top: 100px;
+  }
+  .section:before {
+    top: 20px;
+  }
+  .product-swiper {
+    .swiper-slide{
+      padding: 0;
+    }
+    .swiper-pagination{
+      display: block;
+      margin-bottom: -8px;
+      margin-top: 0;
+    }
+    .swiper-button-prev{
+      display: block;
+      outline: none;
+      fill: #222;
+      &:hover{
+        fill: $main-color
+      }
+    }
+    .swiper-button-next{
+      display: block;
+      outline: none;
+      fill: #222;
+      &:hover{
+        fill: $main-color
+      }
+    }
+    .swiper-wrapper {
+      box-sizing: content-box;
+      flex-wrap: nowrap;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .breadcrumb-item{
+    padding-right: 30px;
+    &:after{
+      right: 5px;
+    }
+  }
+  .product-description-text-wrap{
+    padding: 0;
   }
 
 }

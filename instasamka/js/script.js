@@ -28471,6 +28471,19 @@ $(function () {
     $('#language-select').selectric();
 
 });
+if(screen.width < 767) {
+    var productsSlider = new Swiper('.product-inner-swiper', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.testimonials-next',
+            prevEl: '.testimonials-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+}
 new WOW().init();
 var mySwiper = new Swiper('.meeting-swiper', {
     centeredSlides: true,
