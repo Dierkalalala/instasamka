@@ -1,0 +1,82 @@
+@@include('template-parts/_header.html')
+<main>
+    <div class="breadcrumbs-wrapper">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb d-flex justify-content-center">
+                <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Корзина</li>
+            </ol>
+        </nav>
+    </div>
+    <section class="cart-section">
+        <div class="container">
+            <h2 class="inner-title">
+                Корзина
+            </h2>
+            <div class="cart-section-blocks">
+                <div class="cart-section-block">
+                    <a href="#"><img src="./img/trash-icon.png" alt="trash"></a>
+                    <div class="grid">
+                        <a href="#"><img src="./img/cart-item.png" alt="album-icon"></a>
+                        <div>
+                            <div class="activity-block-text">
+                                Категория продукта
+                            </div>
+                            <div class="activity-block-title">
+                                Полное собрание видео учебника НЛП Практик. 1-8 часть
+                            </div>
+                            <div class="cart-item-price tablet-seen">1 789 грн</div>
+                        </div>
+                        <div>
+                            <div class="cart-item-total">Итого</div>
+                            <div class="cart-item-price">1 789 грн</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-section-block">
+                    <a href="#"><img src="./img/trash-icon.png" alt="trash"></a>
+                    <div class="grid">
+                        <img src="./img/cart-item.png" alt="album-icon">
+                    <div>
+                        <div class="activity-block-text">
+                            Категория продукта
+                        </div>
+                        <div class="activity-block-title">
+                            ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                        </div>
+                        <div class="cart-item-price tablet-seen">1 789 грн</div>
+                    </div>
+                    <div>
+                        <div class="cart-item-total">Итого</div>
+                        <div class="cart-item-price">1 789 грн</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="cart-section-block cart-section-blocks-total desktop-seen">
+                    <a href="#" class="continue-shopping">
+                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.61812 0.866211L0.484375 7.99996L7.61812 15.1337L9.38562 13.3662L4.01937 7.99996L9.38562 2.63371L7.61812 0.866211Z" fill="#555555"/>
+                        </svg>
+                        Продолжить покупки</a>
+                    <div>
+                        <div>Общая стоимость: <span class="cart-item-price">3 689 грн</span></div>
+                        <a href="#" class="default-button">ОФОРМИТЬ ЗАКАЗ</a>
+                    </div>
+                </div>
+                <div class="cart-section-block cart-section-blocks-total tablet-seen">
+                    <div>
+                        <div>Общая стоимость: <span class="cart-item-price">3 689 грн</span></div>
+                        <a href="#" class="default-button">ОФОРМИТЬ ЗАКАЗ</a>
+                    </div>
+                    <a href="#" class="continue-shopping">
+                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.61812 0.866211L0.484375 7.99996L7.61812 15.1337L9.38562 13.3662L4.01937 7.99996L9.38562 2.63371L7.61812 0.866211Z" fill="#555555"/>
+                        </svg>
+                        Продолжить покупки
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+@@include('template-parts/_footer.html')

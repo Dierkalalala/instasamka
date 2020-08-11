@@ -10459,3 +10459,252 @@ h2.inner-title {
     bottom: 48%;
   }
 }
+
+a:focus {
+  outline: none;
+}
+
+.activity-inner-date {
+  font-size: 16px;
+  line-height: 160%;
+  color: #C72849;
+}
+
+.activity-inner-title {
+  font-family: Trajan, sans-serif;
+  font-size: 30px;
+  color: #222222;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.activity-inner-banner-text {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.activity-section-banner-text {
+  padding: 8vw 1vw 8vw 0;
+}
+
+.activity-section-banner-text .default-button {
+  padding: 18px 80px;
+}
+
+.activity-section-banner {
+  position: relative;
+}
+
+.activity-section-banner .col-lg-8 {
+  display: grid;
+  align-items: center;
+}
+
+.activity-section .meeting-slide-card {
+  height: 420px;
+  vertical-align: center;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(100.59deg, #F7EEF7 0%, #F4E9F4 100%);
+  width: 75%;
+  height: 100%;
+  z-index: -1;
+}
+
+.activity-blocks {
+  margin-top: 50px;
+}
+
+.activity-block {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.activity-block .meeting-slide-date {
+  transform: none;
+  padding: 7px 20px 7px 20px;
+  font-size: 12px;
+}
+
+.activity-block svg {
+  width: 100px;
+}
+
+.activity-block .meeting-slide-card {
+  height: 212px !important;
+  padding-top: 160px;
+  position: relative;
+}
+
+.activity-block .default-button {
+  font-size: 15px;
+  padding: 13px 34px;
+  margin: 0 auto;
+}
+
+.activity-block-text {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #555555;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.activity-block-title {
+  font-family: Trajan, sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.cart-item-price {
+  font-family: Trajan, sans-serif;
+  font-size: 22px;
+  line-height: 160%;
+  color: #222222;
+  text-align: center;
+}
+
+.cart-item-total {
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #AEAEAE;
+}
+
+.cart-section-block {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #DFDFDF;
+  padding: 20px 0;
+}
+
+.cart-section-block .activity-block-title, .cart-section-block .activity-block-text {
+  text-align: left;
+}
+
+.cart-section-block .grid {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-column-gap: 40px;
+  align-items: center;
+}
+
+.cart-section-block > a {
+  margin-right: 40px;
+}
+
+.cart-section-blocks-total {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 35px;
+}
+
+.cart-section-blocks-total .default-button {
+  margin-top: 40px;
+  padding: 18px 80px;
+}
+
+.cart-section-blocks-total div div {
+  text-align: right;
+}
+
+.continue-shopping {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.continue-shopping svg {
+  margin-right: 20px;
+  vertical-align: sub;
+}
+
+span.cart-item-price {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.tablet-seen {
+  display: none;
+}
+
+.tablet-seen div {
+  text-align: center !important;
+}
+
+@media (max-width: 1600px) {
+  .cart-section-block .grid {
+    grid-template-columns: 1fr 9fr 2fr;
+  }
+}
+
+@media (max-width: 991px) {
+  .activity-section-banner-text {
+    padding: 5vw 0;
+    text-align: center;
+  }
+  .bg {
+    width: 100%;
+  }
+  .cart-section-block > a {
+    margin-right: 20px;
+  }
+  .cart-section-block .grid {
+    grid-template-columns: 1fr 8fr 3fr;
+    grid-gap: 20px;
+  }
+  .cart-section-blocks .cart-section-block:last-child .default-button {
+    padding: 18px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-section-block .grid {
+    grid-template-columns: 1fr 11fr;
+  }
+  .cart-section-block .grid > div:last-child {
+    display: none;
+  }
+  .desktop-seen {
+    display: none;
+  }
+  .tablet-seen {
+    display: block;
+    text-align: center;
+  }
+  .tablet-seen .default-button {
+    margin: 25px 0 !important;
+  }
+  .cart-item-price.tablet-seen {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .activity-section-banner {
+    display: none;
+  }
+  .activity-blocks {
+    margin-top: 20px;
+  }
+  .tablet-seen .default-button {
+    width: 100%;
+  }
+  .cart-section-block .activity-block-title {
+    font-size: 14px;
+    margin: 0;
+  }
+  .cart-section-block > img {
+    width: 119px;
+  }
+  .cart-item-price.tablet-seen {
+    text-align: left;
+  }
+}
