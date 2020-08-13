@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85bb2818-ba26-4179-8f49-5e2ba4119ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/personal-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/img/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/personal-history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/js/parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/parallax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/template-parts/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/template-parts/sprite.html" afterDir="false" />
@@ -13,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/instasamka/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instasamka/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instasamka/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/fonts/Circe-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/fonts/Circe-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/fonts/Circe-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/fonts/Circe-Bold.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instasamka/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instasamka/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instasamka/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/js/script.min.js" afterDir="false" />
@@ -32,16 +32,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60412264">
+    <splitter split-orientation="horizontal" split-proportion="0.4730444">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/#src/personal-details.html">
+            <entry file="file://$PROJECT_DIR$/#src/personal-history.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+                <state relative-caret-position="324">
+                  <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -50,8 +57,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/#src/template-parts/sprite.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+                <state relative-caret-position="324">
+                  <caret line="156" column="29" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="29" />
                   <folding>
                     <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
                     <element signature="n#symbol#0;n#svg#0;n#!!top" />
@@ -78,26 +85,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/#src/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="33432">
-                  <caret line="1592" column="16" selection-start-line="1592" selection-start-column="16" selection-end-line="1592" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/#src/scss/media.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="745" column="24" selection-start-line="745" selection-start-column="24" selection-end-line="745" selection-end-column="24" />
+                <state relative-caret-position="474">
+                  <caret line="1962" column="3" selection-start-line="1962" selection-start-column="3" selection-end-line="1962" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/#src/scss/media.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="814" column="16" selection-start-line="814" selection-start-column="16" selection-end-line="814" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2394">
-                  <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+                <state relative-caret-position="441">
+                  <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
                   <folding>
                     <element signature="n#!!block;n#Burger#0" />
                   </folding>
@@ -120,12 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.testimonials-swiper</find>
-      <find>video-courses-link</find>
-      <find>.blog-card-image-wrap img</find>
-      <find>.footer-logotype-quote</find>
-      <find>footer</find>
-      <find>.footer</find>
       <find>.video-courses-row .col-lg-3:nth-child(even) .video-courses-card</find>
       <find>wow</find>
       <find>data-wow-delay=&quot;1s&quot;</find>
@@ -150,6 +151,12 @@
       <find>small-container</find>
       <find>.blog-video-course-small-card</find>
       <find>.sidebar-details</find>
+      <find>.personal-history-table-body</find>
+      <find>.personal-history-table-action</find>
+      <find>parallax</find>
+      <find>resetButton</find>
+      <find>personal-history-table-row</find>
+      <find>personal-history-table-row</find>
     </findStrings>
     <replaceStrings>
       <replace>data-wow-delay=&quot;0.5s&quot;</replace>
@@ -175,7 +182,6 @@
         <option value="$PROJECT_DIR$/#src/js/swiper.js" />
         <option value="$PROJECT_DIR$/#src/js/fancybox.js" />
         <option value="$PROJECT_DIR$/#src/scss/plugins.scss" />
-        <option value="$PROJECT_DIR$/#src/js/parallax.js" />
         <option value="$PROJECT_DIR$/#src/js/script.js" />
         <option value="$PROJECT_DIR$/#src/img/rated.svg" />
         <option value="$PROJECT_DIR$/#src/img/rating.svg" />
@@ -188,11 +194,13 @@
         <option value="$PROJECT_DIR$/#src/product.html" />
         <option value="$PROJECT_DIR$/#src/blog.html" />
         <option value="$PROJECT_DIR$/#src/index.html" />
-        <option value="$PROJECT_DIR$/#src/template-parts/sprite.html" />
         <option value="$PROJECT_DIR$/#src/personal-details.html" />
-        <option value="$PROJECT_DIR$/#src/js/main.js" />
+        <option value="$PROJECT_DIR$/#src/template-parts/sprite.html" />
+        <option value="$PROJECT_DIR$/#src/js/parallax.js" />
         <option value="$PROJECT_DIR$/#src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/#src/personal-history.html" />
         <option value="$PROJECT_DIR$/#src/scss/media.scss" />
+        <option value="$PROJECT_DIR$/#src/js/main.js" />
       </list>
     </option>
   </component>
@@ -207,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,11 +228,22 @@
               <item name="instasamka" type="462c0819:PsiDirectoryNode" />
               <item name="#src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="instasamka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instasamka" type="462c0819:PsiDirectoryNode" />
+              <item name="#src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instasamka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instasamka" type="462c0819:PsiDirectoryNode" />
+              <item name="#src" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,6 +255,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\forWeb\working_area\instasamka\#src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\forWeb\working_area\instasamka\#src\img" />
       <recent name="D:\forWeb\working_area\instasamka\#src\img\banner" />
@@ -271,7 +294,7 @@
       <workItem from="1596786060718" duration="733000" />
       <workItem from="1597038805996" duration="13723000" />
       <workItem from="1597212383747" duration="5005000" />
-      <workItem from="1597310651630" duration="197000" />
+      <workItem from="1597310651630" duration="5688000" />
     </task>
     <task id="LOCAL-00001" summary="video-courses page, changed main.js, testimonials-starter template">
       <created>1597042310304</created>
@@ -284,7 +307,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64746000" />
+    <option name="totallyTimeSpent" value="70237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,13 +319,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="1" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -313,7 +337,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.08350951" side_tool="true" weight="0.25396827" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.9164905" visible="true" weight="0.25396827" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.9164905" visible="true" weight="0.25396827" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,13 +484,6 @@
           <folding>
             <element signature="e#5750#7982#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#src/js/parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="1017" lean-forward="true" selection-start-line="1017" selection-end-line="1017" />
         </state>
       </provider>
     </entry>
@@ -758,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/template-parts/sprite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+        <state relative-caret-position="324">
+          <caret line="156" column="29" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
             <element signature="n#symbol#0;n#svg#0;n#!!top" />
@@ -778,36 +795,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#src/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/#src/personal-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33432">
-          <caret line="1592" column="16" selection-start-line="1592" selection-start-column="16" selection-end-line="1592" selection-end-column="16" />
+        <state relative-caret-position="471">
+          <caret line="137" column="68" selection-start-line="137" selection-start-column="68" selection-end-line="137" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#src/js/main.js">
+    <entry file="file://$PROJECT_DIR$/#src/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+        <state relative-caret-position="432">
+          <caret line="1019" column="9" lean-forward="true" selection-start-line="1019" selection-start-column="9" selection-end-line="1019" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#src/personal-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
-            <element signature="n#!!block;n#Burger#0" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="1962" column="3" selection-start-line="1962" selection-start-column="3" selection-end-line="1962" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/scss/media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="745" column="24" selection-start-line="745" selection-start-column="24" selection-end-line="745" selection-end-column="24" />
+        <state relative-caret-position="555">
+          <caret line="814" column="16" selection-start-line="814" selection-start-column="16" selection-end-line="814" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#src/personal-details.html">
+    <entry file="file://$PROJECT_DIR$/#src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        <state relative-caret-position="441">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" />
+            <element signature="n#!!block;n#Burger#0" />
           </folding>
         </state>
       </provider>

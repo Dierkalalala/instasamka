@@ -3,7 +3,7 @@ $(function () {
     $('.lk-selectric').selectric();
 
 });
-if(screen.width < 767) {
+if (screen.width < 767) {
     var productsSlider = new Swiper('.product-inner-swiper', {
         slidesPerView: 1,
         loop: true,
@@ -15,6 +15,12 @@ if(screen.width < 767) {
             el: '.swiper-pagination',
         },
     });
+    let personalHistoryOpen = document.querySelectorAll('.personal-history-open');
+    Array.from(personalHistoryOpen).forEach(historyElement => {
+        let parent = historyElement.closest('.personal-history-table-wrapper');
+        let lastCol = parent.querySelector('.personal-history-table-action-col');
+        lastCol.before(historyElement);
+    })
 }
 new WOW().init();
 var mySwiper = new Swiper('.meeting-swiper', {
@@ -52,12 +58,7 @@ var testimonialsSlider = new Swiper('.testimonials-swiper', {
         el: '.swiper-pagination',
     },
 });
-try {
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-} catch (e) {
-    console.log(e)
-}
+
 
 function Burger(burger, menu) {
     this.burger = burger
@@ -138,11 +139,61 @@ try {
 
 
 let resetButton = document.querySelector('.reset-button');
-resetButton.addEventListener('click', resetForm);
+if (resetButton) {
+    resetButton.addEventListener('click', resetForm);
+}
+
 function resetForm(e) {
     e.preventDefault();
     let form = this.closest('form');
     $('.lk-selectric').selectric('refresh');
     form.reset();
     this.click();
+}
+
+function Collapser(collapsTriggerClassName, collapsingClass, parentSelector,) {
+    this.parentClassName = parentSelector
+    this.collapsers = document.querySelectorAll(collapsTriggerClassName);
+    this.collapsingClass = collapsingClass
+    let self = this
+
+    Array.from(this.collapsers).forEach(collpaser => {
+        collpaser.addEventListener('click', toggleCollapse)
+    })
+
+    function toggleCollapse(e) {
+        let parent = this.closest(self.parentClassName);
+        let openingElement = parent.getElementsByClassName(self.collapsingClass)
+        parent.classList.toggle('active')
+        Array.from(openingElement).forEach(el => {
+            if (el.style.maxHeight) {
+                el.style.maxHeight = ''
+                this.classList.remove('active');
+                el.classList.remove('active')
+            } else {
+                el.style.maxHeight = el.scrollHeight + 'px'
+                this.classList.add('active')
+            }
+        })
+
+
+    }
+}
+
+try {
+    let lkCollapser = new Collapser(
+        '.personal-history-table-action',
+        'personal-history-open',
+        '.personal-history-table-wrapper'
+    )
+} catch (e) {
+    console.log(e)
+}
+try {
+    var scene = document.getElementById('scene');
+    if (scene) {
+        var parallaxInstance = new Parallax(scene);
+    }
+} catch (e) {
+    console.log(e)
 }

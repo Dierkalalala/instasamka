@@ -9896,6 +9896,204 @@ button.default-button {
   font-size: 14px;
 }
 
+.personal-history-table-col {
+  width: 22%;
+}
+
+.personal-history-table-head .personal-history-table-col {
+  font-size: 14px;
+  color: #AEAEAE;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.personal-history-table-action .minus_icon {
+  display: none;
+}
+
+.personal-history-table-action.active {
+  background-color: #fff;
+}
+
+.personal-history-table-action.active svg {
+  display: none;
+}
+
+.personal-history-table-action.active .minus_icon {
+  display: block;
+}
+
+.minus_icon {
+  fill: #E094A5;
+}
+
+.plus_icon {
+  fill: #fff;
+}
+
+.personal-history-table-body .personal-history-table-row {
+  align-items: center;
+  padding: 20px 0;
+  border: 1px solid #DFDFDF;
+}
+
+.personal-history-table-body .personal-history-card {
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.personal-history-table-body .personal-history-table-col {
+  font-size: 16px;
+  font-family: Trajan, sans-serif;
+  text-align: center;
+  border-right: 1px solid #DFDFDF;
+  height: 30px;
+  line-height: 30px;
+}
+
+.personal-history-table-action {
+  width: 47px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E094A5;
+  margin: 0 auto;
+  transition: 0.3s linear all;
+  cursor: pointer;
+  border: 1px solid #E094A5;
+}
+
+.personal-history-table-action.active:hover {
+  background-color: #E094A5;
+}
+
+.personal-history-table-action.active:hover .minus_icon {
+  fill: #fff;
+}
+
+.personal-history-table-action:hover {
+  background-color: #fff;
+}
+
+.personal-history-table-action:hover .plus_icon {
+  fill: #E094A5;
+}
+
+.personal-history-table-action-col {
+  width: 12%;
+}
+
+.personal-history-card-img-wrap {
+  min-width: 172px;
+  height: 167px;
+  width: 172px;
+  margin-right: 40px;
+}
+
+.personal-history-card-img-wrap img {
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.personal-history-card {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personal-history-card .default-button {
+  display: flex;
+  align-items: center;
+}
+
+.personal-history-card .default-button svg {
+  margin-right: 15px;
+  fill: #fff;
+  transition: 0.3s linear all;
+}
+
+.personal-history-card .default-button:hover svg {
+  fill: #E094A5;
+}
+
+.personal-history-card-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-history-card-category {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.personal-history-card-text-title {
+  font-size: 18px;
+  color: #222222;
+}
+
+.personal-history-card-pricebox-muted {
+  font-size: 14px;
+  text-align: center;
+  color: #AEAEAE;
+  margin-bottom: 8px;
+}
+
+.personal-history-card-pricebox-price {
+  font-size: 22px;
+  color: #222222;
+}
+
+.personal-history-card-general {
+  align-items: center;
+}
+
+.personal-history-open {
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s linear all;
+}
+
+.personal-history-open.active {
+  max-height: none;
+}
+
+.overall-price {
+  margin-left: auto;
+}
+
+.personal-history-table-wrapper {
+  margin-bottom: 15px;
+  background: #F4F5F9;
+}
+
+.personal-history-table-wrapper.active {
+  border: 1px solid #DFDFDF;
+}
+
+.overall-price {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.overall-price .d-flex {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.overall-price .title {
+  font-size: 22px;
+  margin-left: 10px;
+  padding-right: 30px;
+}
+
 @media (max-width: 1600px) {
   .header-right-sided-block .header-navigation {
     margin-right: 20px;
@@ -10632,6 +10830,69 @@ button.default-button {
     flex-direction: column;
     display: flex;
     align-items: center;
+  }
+  .personal-history-table-body .personal-history-table-row {
+    flex-wrap: wrap;
+  }
+  .personal-history-table-col {
+    width: 50%;
+  }
+  .personal-history-table-head {
+    display: none;
+  }
+  .personal-history-table-body .personal-history-table-row {
+    padding: 0;
+  }
+  .personal-history-table-body .personal-history-table-col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .personal-history-table-body .personal-history-table-row {
+    margin-bottom: 0;
+  }
+  .personal-history-table-wrapper {
+    background: #F4F5F9;
+  }
+  .personal-history-table-body .personal-history-table-col {
+    position: relative;
+  }
+  .personal-history-table-body .personal-history-table-col:before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 22px);
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
+    left: 0;
+  }
+  .personal-history-card-general {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .personal-history-table-body .personal-history-card {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .personal-history-card-img-wrap {
+    margin: 0 auto 10px;
+  }
+  .personal-history-card-pricebox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .personal-history-card-text-title {
+    font-size: 14px;
+  }
+  .personal-history-card-general {
+    margin-bottom: 10px;
+  }
+  .personal-history-table-action-col {
+    margin: 10px auto;
+    width: 100%;
   }
 }
 

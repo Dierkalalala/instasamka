@@ -750,6 +750,71 @@
     display: flex;
     align-items: center;
   }
+  .personal-history-table-body .personal-history-table-row{
+    flex-wrap: wrap;
+  }
+  .personal-history-table-col{
+    width: 50%;
+  }
+  .personal-history-table-head{
+    display: none;
+  }
+  .personal-history-table-body .personal-history-table-row{
+    padding: 0;
+  }
+  .personal-history-table-body .personal-history-table-col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .personal-history-table-body .personal-history-table-row{
+
+    margin-bottom: 0;
+  }
+  .personal-history-table-wrapper{
+    background: #F4F5F9;
+  }
+  .personal-history-table-body .personal-history-table-col{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: calc(100% + 22px);
+      width: 100%;
+      height: 1px;
+      background-color: #DFDFDF;
+      left: 0;
+    }
+  }
+  .personal-history-card-general{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .personal-history-table-body .personal-history-card{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .personal-history-card-img-wrap{
+    margin: 0 auto 10px;
+  }
+  .personal-history-card-pricebox{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .personal-history-card-text-title{
+    font-size: 14px;
+  }
+  .personal-history-card-general{
+    margin-bottom: 10px;
+  }
+  .personal-history-table-action-col{
+    margin: 10px auto;
+    width: 100%;
+  }
+
 
 }
 @media (max-width: 360px) {
