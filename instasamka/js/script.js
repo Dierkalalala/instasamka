@@ -28469,6 +28469,7 @@
 ;
 $(function () {
     $('#language-select').selectric();
+    $('.lk-selectric').selectric();
 
 });
 if(screen.width < 767) {
@@ -28602,5 +28603,16 @@ try {
     )
 } catch (e) {
     console.log(e);
+}
+
+
+let resetButton = document.querySelector('.reset-button');
+resetButton.addEventListener('click', resetForm);
+function resetForm(e) {
+    e.preventDefault();
+    let form = this.closest('form');
+    $('.lk-selectric').selectric('refresh');
+    form.reset();
+    this.click();
 }
 

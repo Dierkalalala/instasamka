@@ -729,6 +729,27 @@
   .blog-navigation-wrapper{
     margin-top: 50px;
   }
+  .personal-details label{
+    margin-right: 0;
+  }
+  .input-row{
+    flex-wrap: wrap;
+  }
+  .personal-sidebar{
+    margin-bottom: 30px;
+  }
+  .select-row{
+    margin-bottom: 30px;
+  }
+  .lk-buttons-row .default-button {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .lk-buttons-row{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 
 }
 @media (max-width: 360px) {
