@@ -4,4 +4,5 @@
 @@include('swiper.js');
 @@include('fancybox.js');
 @@include('parallax.js');
-@@include('main.js')
+@@include('main.js');
+@@include('elmira.js');
