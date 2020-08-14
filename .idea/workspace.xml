@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85bb2818-ba26-4179-8f49-5e2ba4119ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/blog-one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/bt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/inst.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/m2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/mb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/mib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/img/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/meeting-one-big.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/meeting-one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/personal-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/personal-history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/template-parts/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/template-parts/sprite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/js/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/testimonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/testimonials.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instasamka/vcourses.html" beforeDir="false" afterPath="$PROJECT_DIR$/instasamka/vcourses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/meeting-one-big.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/meeting-one-big.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,14 +20,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/meeting-one-big.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="470" column="84" selection-start-line="470" selection-start-column="84" selection-end-line="470" selection-end-column="84" />
+                <state relative-caret-position="294">
+                  <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
                   <folding>
                     <element signature="n#div#0;n#main#0;n#!!top" />
                     <element signature="n#section#0;n#main#0;n#!!top" />
                     <element signature="n#section#1;n#main#0;n#!!top" />
                     <element signature="n#div#0;n#section#1;n#main#0;n#!!top" />
-                    <element signature="n#section#2;n#main#0;n#!!top" />
                     <element signature="n#section#3;n#main#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#section#3;n#main#0;n#!!top" />
                     <element signature="n#div#2;n#div#0;n#section#3;n#main#0;n#!!top" />
@@ -278,8 +248,8 @@
         <option value="$PROJECT_DIR$/#src/img/inst.svg" />
         <option value="$PROJECT_DIR$/#src/js/main.js" />
         <option value="$PROJECT_DIR$/#src/scss/main.scss" />
-        <option value="$PROJECT_DIR$/#src/meeting-one-big.html" />
         <option value="$PROJECT_DIR$/#src/scss/media.scss" />
+        <option value="$PROJECT_DIR$/#src/meeting-one-big.html" />
       </list>
     </option>
   </component>
@@ -373,7 +343,7 @@
       <workItem from="1596786060718" duration="733000" />
       <workItem from="1597038805996" duration="13723000" />
       <workItem from="1597212383747" duration="5005000" />
-      <workItem from="1597310651630" duration="25137000" />
+      <workItem from="1597310651630" duration="25733000" />
     </task>
     <task id="LOCAL-00001" summary="video-courses page, changed main.js, testimonials-starter template">
       <created>1597042310304</created>
@@ -386,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89686000" />
+    <option name="totallyTimeSpent" value="90282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,16 +949,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/#src/scss/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="986" lean-forward="true" selection-start-line="986" selection-end-line="986" />
+          <folding>
+            <element signature="e#3684#7845#0" />
+            <element signature="e#13673#13719#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/#src/meeting-one-big.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="470" column="84" selection-start-line="470" selection-start-column="84" selection-end-line="470" selection-end-column="84" />
+        <state relative-caret-position="294">
+          <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#main#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#main#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#!!top" />
             <element signature="n#section#3;n#main#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#main#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#section#3;n#main#0;n#!!top" />
@@ -1003,17 +983,6 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#section#5;n#main#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#div#3;n#div#1;n#section#5;n#main#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#3;n#div#1;n#section#5;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#src/scss/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="986" lean-forward="true" selection-start-line="986" selection-end-line="986" />
-          <folding>
-            <element signature="e#3684#7845#0" />
-            <element signature="e#13673#13719#0" />
           </folding>
         </state>
       </provider>
