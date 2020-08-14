@@ -17,3 +17,33 @@ input.addEventListener('input', () => {
         searchFieldContent.classList.remove('active');
     }
 });
+
+let file = document.querySelector('.file-attach-input');
+  file.addEventListener('change', (e) => {
+    document.getElementById("file-name").innerHTML = e.target.files[0].name;
+  });
+
+  let checkboxSpanFeedback = document.querySelector('#feedback-pop-up .checkbox-field span');
+  if(document.documentElement.offsetWidth < 992){
+    checkboxSpanFeedback.innerHTML = "я согласен с условиями";
+  }
+
+  document.querySelector('.custom-select-wrapper').addEventListener('click', function() {
+    this.querySelector('.custom-select').classList.toggle('open');
+  });
+
+  for (let option of document.querySelectorAll(".custom-option")) {
+    option.addEventListener('click', function() {
+        if (!this.classList.contains('selected')) {
+            this.parentNode.querySelector('.custom-option.selected').classList.remove('selected');
+            this.classList.add('selected');
+            this.closest('.custom-select').querySelector('.custom-select__trigger span').textContent = this.textContent;
+        }
+    });
+  }
+  window.addEventListener('click', function(e) {
+    const select = document.querySelector('.custom-select')
+    if (!select.contains(e.target)) {
+        select.classList.remove('open');
+    }
+  });
