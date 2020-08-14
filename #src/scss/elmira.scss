@@ -105,19 +105,32 @@ a:focus{
 .cart-section-block{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-top: 1px solid #DFDFDF;
-    padding: 20px 0;
+    padding: 20px 0 15px 0;
     .activity-block-title, .activity-block-text{
         text-align: left;
     }
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 10fr 1fr;
-        grid-column-gap: 40px;
-        align-items: center;
+    .trash{
+        flex-grow: 1;
+        max-width: 37px;
+        svg path{
+            transition: 0.3s linear all;
+        }
+        &:hover svg path{
+            fill: #C72849;
+        }
     }
-    &>a{
-        margin-right: 40px;
+    .album-icon{
+        flex-grow: 2;
+        max-width: 147px;
+    }
+    .cart-section-text{
+        flex-grow: 7;
+    }
+    .cart-section-price{
+        flex-grow: 2;
+        max-width: 147px;
     }
 }
 .cart-section-blocks-total{
@@ -135,9 +148,22 @@ a:focus{
 .continue-shopping{
     text-transform: uppercase;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    span{
+        transition: 0.3s linear all;
+    }
     svg{
-        margin-right: 20px;
-        vertical-align: sub;
+        margin: 0px 20px 2px 2px;
+        path{
+            transition: 0.3s linear all;
+        }
+    }
+    &:hover{
+        color:#E094A5;
+        svg path{
+            fill: #E094A5;
+        }
     }
 }
 span.cart-item-price{
@@ -149,4 +175,8 @@ span.cart-item-price{
     div{
         text-align: center !important;
     }
+}
+.meeting-slide-card{
+    cursor: pointer;
+    position: relative;
 }
