@@ -202,11 +202,39 @@
   .product-inner-title{
     font-size: 26px;
   }
+  .order-row{
+    flex-direction: column-reverse;
+  }
+  .banner-wrapper .meeting-big-banner{
+    object-fit: cover;
+  }
+  .banner-wrapper .big-banner-text-wrapper {
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .banner-wrapper{
+    margin-bottom: 30px;
+  }
+  .meeting-one-text-wrapper{
+    margin: 0 auto 20px;
+  }
+
 
 
 }
 
 @media (max-width: 991px) {
+  .breadcrumb{
+    padding-top: 30px;
+  }
+  .order-details-personal-title{
+    margin-top: 50px;
+  }
   .main-banner-content {
     flex-direction: column-reverse;
   }
@@ -814,7 +842,141 @@
     margin: 10px auto;
     width: 100%;
   }
-
+  .blog-main-title {
+    font-size: 22px;
+  }
+  .comment {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .more-blog-posts {
+    position: relative;
+  }
+  .more-blog-posts .swiper-button-prev, .more-blog-posts .swiper-container-rtl .swiper-button-next {
+    left: 10px;
+  }
+  .more-blog-posts .swiper-button-next, .more-blog-posts .swiper-container-rtl .swiper-button-prev {
+    left: 80px;
+  }
+  .comment-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .blog-post-comments-first-row {
+    flex-wrap: wrap;
+  }
+  .blog-post-comments-first-row .inner-title {
+    margin: 0 auto 20px auto !important;
+    text-align: center !important;
+    font-size: 35px;
+  }
+  .blog-post-comments-first-row .default-button {
+    margin: 0 auto;
+  }
+  .video-courses-small-card-img-wrap {
+    width: 119px;
+    min-width: 119px;
+    height: 119px;
+    margin-right: 11px;
+  }
+  .small-blog-post-image-wrap {
+    width: 119px;
+    height: 69px;
+    min-width: 119px;
+    margin-right: 11px;
+  }
+  .price-row .price {
+    color: #C72849;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  .price-row .old-price {
+    font-size: 16px;
+  }
+  .blog-video-course-small-card-text-wrapper .price-row {
+    justify-content: flex-start;
+  }
+  .more-blog-posts h2{
+    text-align: center !important;
+  }
+  .more-blog-posts .inner-small-title{
+    display: none;
+  }
+  .order-row .cart-section-block .grid {
+    grid-template-columns: 1fr 11fr;
+  }
+  .order-details-personal-title{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    .order-details-number{
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .inner-title{
+      font-size: 22px;
+    }
+  }
+  .checkbox-order-label{
+    align-items: flex-start;
+  }
+  .banner-title{
+    font-size: 30px;
+  }
+  .meeting-one-text-wrapper h2{
+    font-size: 22px;
+  }
+  .meeting-one-big-inner-banner-text-wrapper{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .meeting-one-big-inner-banner-text-wrapper .sub-title:after{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .step-title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .default-ul-wrap ul li{
+    padding-left: 25px;
+  }
+  .seminar-image-wrap img{
+    max-width: 300px;
+  }
+  .seminar-images-row {
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .right-sem-image{
+    display: none;
+  }
+  .left-sem-image{
+    display: none;
+  }
+  .meeting-big-section h2.inner-title{
+    font-size: 22px;
+  }
+  .course-program-wrap{
+    padding-bottom: 0;
+  }
+  .reason-card{
+    padding-left: 40px;
+  }
+  .reason-card:before{
+    top: 14px;
+    width: 20px;
+  }
+  .left-sided-background{
+    left: 0;
+  }
 
 }
 @media (max-width: 360px) {

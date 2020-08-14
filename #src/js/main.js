@@ -21,6 +21,11 @@ if (screen.width < 767) {
         let lastCol = parent.querySelector('.personal-history-table-action-col');
         lastCol.before(historyElement);
     })
+    let meetingBigText = document.querySelectorAll('.meeting-one-big-inner-banner-text-wrapper');
+    Array.from(meetingBigText).forEach(htmlElement => {
+        let parent = htmlElement.closest('.meeting-one-big-inner-banner-wrapper')
+        parent.after(htmlElement)
+    })
 }
 new WOW().init();
 var mySwiper = new Swiper('.meeting-swiper', {
