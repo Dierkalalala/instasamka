@@ -202,3 +202,10 @@ try {
 } catch (e) {
     console.log(e)
 }
+
+var myRater = raterJs({element: document.querySelector("#rating"),
+    rateCallback:function rateCallback(rating, done) {
+        this.setRating(rating);
+        done();
+    }
+});

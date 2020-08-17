@@ -94,7 +94,7 @@ ul li {
 .header-search-icon {
   display: flex;
 
-  a {
+  & > * {
     margin-right: 15px;
 
     svg {
@@ -2152,7 +2152,7 @@ button.default-button {
   margin-top: 30px;
 }
 .order-row .cart-section-block .grid{
-  grid-template-columns: 1fr 3fr 1fr;
+  display: flex;
   width: 100%;
 }
 .checkbox-order-label {
@@ -2403,4 +2403,57 @@ h2.title-bottom{
 .seminar-image-wrap{
   margin-bottom: 20px;
 }
+.header-search-wrap{
+  cursor: pointer;
+}
+#autorization-pop-up .checkbox-field{
+  margin-top: 10px;
+}
+#feedback-pop-up .rating-block{
+  width: 100%;
+}
+.star-rating {
+  width: 0;
+  position: relative;
+  display:inline-block;
+  background-image: url(../img/star_0.svg);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  cursor: pointer;
+}
 
+.star-rating .star-value {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url('../img/star_1.svg') ;
+  background-repeat: repeat-x;
+}
+
+.star-rating.disabled {
+  cursor: default;
+}
+
+.star-rating.is-busy {
+  cursor: wait;
+}
+
+.star-rating .star-value.rtl {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  right: 0;
+  left: auto;
+}
+.order-row .cart-section-block{
+  border: none;
+}
+label{
+  display: block;
+}
+.form-part label{
+  margin-bottom: 15px;
+}

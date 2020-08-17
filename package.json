@@ -34,6 +34,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "rater-js": "^1.0.1",
     "vanilla-js-dropdown": "^2.2.0"
   }
 }
