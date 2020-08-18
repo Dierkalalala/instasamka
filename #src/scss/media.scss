@@ -135,8 +135,8 @@
   .banner-wrapper-container{
     width: 100%;
     max-width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .meeting-one-text-wrapper h2{
     font-size: 28px;
@@ -231,13 +231,33 @@
   .product-inner-video-wrapper{
     height: auto;
   }
-
-
+  .main-page-main-banner{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cart-section-block .album-icon{
+    img{
+      max-width: 100%;
+    }
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .cart-section-block .trash{
+    margin-right: 20px;
+  }
+  .activity-block-title {
+    font-size: 14px;
+  }
 
 
 }
 
 @media (max-width: 1200px) {
+  .cart-section-block .album-icon{
+    max-width: 140px;
+  }
+
   .burger {
     display: block
   }
@@ -367,8 +387,14 @@
 }
 
 @media (max-width: 991px) {
+
   .breadcrumb{
     padding-top: 30px;
+  }
+  .main-page-main-banner{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .banner-wrapper-container{
     padding-left: 0px;

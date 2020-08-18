@@ -2609,3 +2609,18 @@ label {
     }
   }
 }
+.header {
+  .selectric-items ul {
+    border-radius: 10px;
+  }
+  .selectric-items .selectric-scroll{
+    border-radius: 10px;
+  }
+  .selectric-open .selectric-items{
+    border-radius: 10px;
+  }
+}
+
+.testimonials-card-img-wrap{
+  display: block;
+}

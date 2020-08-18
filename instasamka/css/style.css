@@ -10713,6 +10713,22 @@ label {
   transform: scale(1.2);
 }
 
+.header .selectric-items ul {
+  border-radius: 10px;
+}
+
+.header .selectric-items .selectric-scroll {
+  border-radius: 10px;
+}
+
+.header .selectric-open .selectric-items {
+  border-radius: 10px;
+}
+
+.testimonials-card-img-wrap {
+  display: block;
+}
+
 a:focus {
   outline: none;
 }
@@ -10791,7 +10807,7 @@ a:focus {
   height: 212px !important;
   padding-top: 160px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .activity-block .default-button {
@@ -11622,8 +11638,8 @@ input[type="checkbox"]:checked + .custom-checkbox .tick {
   .banner-wrapper-container {
     width: 100%;
     max-width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .meeting-one-text-wrapper h2 {
     font-size: 28px;
@@ -11716,9 +11732,30 @@ input[type="checkbox"]:checked + .custom-checkbox .tick {
   .product-inner-video-wrapper {
     height: auto;
   }
+  .main-page-main-banner {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cart-section-block .album-icon {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .cart-section-block .album-icon img {
+    max-width: 100%;
+  }
+  .cart-section-block .trash {
+    margin-right: 20px;
+  }
+  .activity-block-title {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .cart-section-block .album-icon {
+    max-width: 140px;
+  }
   .burger {
     display: block;
   }
@@ -11849,6 +11886,11 @@ input[type="checkbox"]:checked + .custom-checkbox .tick {
 @media (max-width: 991px) {
   .breadcrumb {
     padding-top: 30px;
+  }
+  .main-page-main-banner {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .banner-wrapper-container {
     padding-left: 0px;
