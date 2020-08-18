@@ -2103,12 +2103,14 @@ button.default-button {
 .payment-label {
   margin-bottom: 30px;
   text-align: center;
+
   input {
     position: absolute;
     left: -9999px;
 
     &:checked ~ .payment-type-wrapper .circle {
       background-color: #C72849;
+
       svg {
         opacity: 1;
       }
@@ -2138,36 +2140,44 @@ button.default-button {
       align-items: center;
       justify-content: center;
       transition: 0.3s linear all;
-      svg{
+
+      svg {
         opacity: 0;
         transition: 0.3s linear all;
       }
     }
   }
 }
-.order-def-btn-wrapper{
+
+.order-def-btn-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
 }
-.order-row .cart-section-block .grid{
+
+.order-row .cart-section-block .grid {
   display: flex;
   width: 100%;
 }
+
 .checkbox-order-label {
   display: flex;
   align-items: center;
-  input{
+
+  input {
     position: absolute;
     left: -9999px;
-    &:checked ~ .square{
+
+    &:checked ~ .square {
       background-color: $main-color;
-      svg{
+
+      svg {
         opacity: 1;
       }
     }
   }
+
   .square {
     transition: 0.3s linear all;
     border-radius: 3px;
@@ -2179,21 +2189,25 @@ button.default-button {
     width: 21px;
     height: 21px;
     min-width: 21px;
-    svg{
+
+    svg {
       transition: 0.3s linear all;
-      opacity:0;
+      opacity: 0;
     }
   }
 }
-.payment-type-radio-wrapper{
+
+.payment-type-radio-wrapper {
   margin-bottom: 10px;
 }
+
 .payment-type-wrapper {
-  .img-wrap{
+  .img-wrap {
     margin-bottom: 10px;
   }
 }
-.banner-wrapper{
+
+.banner-wrapper {
   max-height: 700px;
   height: 700px;
   max-width: 1750px;
@@ -2203,45 +2217,54 @@ button.default-button {
   align-items: center;
   z-index: 1;
   position: relative;
-  .meeting-big-banner{
+
+  .meeting-big-banner {
     z-index: -1;
     max-width: 100%;
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
-  .big-banner-text-wrapper{
+
+  .big-banner-text-wrapper {
     padding-left: 160px;
   }
 }
-.banner-beginning{
+
+.banner-beginning {
   color: #FFFFFF;
   font-size: 16px;
   margin-bottom: 10px;
 }
-.banner-name{
+
+.banner-name {
   color: $main-color;
   font-size: 20px;
   letter-spacing: 0.1em;
 }
-.banner-title{
+
+.banner-title {
   font-size: 50px;
   color: #FFFFFF;
 }
-.banner-subtitle{
+
+.banner-subtitle {
   color: #FFFFFF;
   font-size: 20px;
   margin-bottom: 20px;
 }
-.meeting-one-text-wrapper{
+
+.meeting-one-text-wrapper {
   max-width: 990px;
   margin: 0 auto;
 }
+
 .meeting-one-text-wrapper {
-  p{
+  p {
     margin-bottom: 20px;
   }
-  h2{
+
+  h2 {
     font-size: 34px;
     color: #222222;
     font-family: Trajan, sans-serif;
@@ -2251,10 +2274,12 @@ button.default-button {
   }
 
 }
-.meeting-one-big-text{
+
+.meeting-one-big-text {
   margin-bottom: 20px;
 }
-.meeting-one-big-inner-banner-wrapper{
+
+.meeting-one-big-inner-banner-wrapper {
   background-color: #EEECF4;
   background-image: url('../img/mib.png');
   max-height: 400px;
@@ -2264,27 +2289,31 @@ button.default-button {
   position: relative;
 }
 
-.left-sided-background{
+.left-sided-background {
   position: absolute;
   left: 48px;
   top: 0;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.meeting-one-big-inner-banner-text-wrapper{
-  .small-title{
+
+.meeting-one-big-inner-banner-text-wrapper {
+  .small-title {
     font-size: 28px;
     margin-bottom: 3px;
     font-family: Trajan, sans-serif;
     font-weight: normal;
   }
-  .sub-title{
+
+  .sub-title {
     padding-bottom: 18px;
     margin-bottom: 18px;
     position: relative;
     text-align: left;
-    &:after{
+
+    &:after {
       content: '';
       position: absolute;
       top: 100%;
@@ -2295,36 +2324,43 @@ button.default-button {
     }
   }
 }
-.meeting-one-big-inner-banner-wrapper p{
+
+.meeting-one-big-inner-banner-wrapper p {
   padding-right: 30px;
   margin-bottom: 0;
 }
+
 .custom-ul {
-  li{
+  li {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    svg{
+
+    svg {
       margin-right: 40px;
     }
   }
 }
-.course-program-wrap{
+
+.course-program-wrap {
   padding-bottom: 40px;
   border-bottom: 1px solid #DFDFDF;
 }
-.step-title{
+
+.step-title {
   font-size: 24px;
   font-family: Trajan, sans-serif;
   color: #C72849;
 }
+
 .default-ul-wrap {
-  ul{
-    li{
+  ul {
+    li {
       padding-left: 35px;
       font-size: 18px;
       position: relative;
-      &:before{
+
+      &:before {
         content: '';
         position: absolute;
         left: 0;
@@ -2337,28 +2373,34 @@ button.default-button {
     }
   }
 }
-.step-dates{
+
+.step-dates {
   display: block;
 }
-.couse-program-step{
+
+.couse-program-step {
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #DFDFDF;
-  &:last-child{
+
+  &:last-child {
     border-bottom: none;
   }
 }
-.reason-title{
+
+.reason-title {
   font-size: 22px;
   margin-bottom: 10px;
 
 }
-.reason-card{
+
+.reason-card {
   padding-left: 80px;
   position: relative;
   margin-bottom: 30px;
   margin-top: 30px;
-  &:before{
+
+  &:before {
     content: '';
     position: absolute;
     left: 0;
@@ -2366,56 +2408,70 @@ button.default-button {
     border: 1px solid #000000;
     width: 60px;
   }
-  p{
+
+  p {
     color: #777777;
   }
 }
-.seminar-images-row{
+
+.seminar-images-row {
   margin-top: 10px;
 }
-.seminar-images-row{
+
+.seminar-images-row {
   margin-bottom: 50px;
 }
-.btn-center-wrap{
+
+.btn-center-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .inst-btn {
-  img{
+  img {
     margin-right: 15px;
   }
 }
-.position-relative{
+
+.position-relative {
   position: relative;
 }
-.right-sem-image{
+
+.right-sem-image {
   right: 0;
   top: 0;
 }
-h2.title-bottom{
+
+h2.title-bottom {
   margin-bottom: 40px;
 }
-.seminar-image-wrap img{
+
+.seminar-image-wrap img {
   max-width: 100%;
   object-fit: cover;
 }
-.seminar-image-wrap{
+
+.seminar-image-wrap {
   margin-bottom: 20px;
 }
-.header-search-wrap{
+
+.header-search-wrap {
   cursor: pointer;
 }
-#autorization-pop-up .checkbox-field{
+
+#autorization-pop-up .checkbox-field {
   margin-top: 10px;
 }
-#feedback-pop-up .rating-block{
+
+#feedback-pop-up .rating-block {
   width: 100%;
 }
+
 .star-rating {
   width: 0;
   position: relative;
-  display:inline-block;
+  display: inline-block;
   background-image: url(../img/star_0.svg);
   background-position: 0 0;
   background-repeat: repeat-x;
@@ -2426,7 +2482,7 @@ h2.title-bottom{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url('../img/star_1.svg') ;
+  background: url('../img/star_1.svg');
   background-repeat: repeat-x;
 }
 
@@ -2448,12 +2504,108 @@ h2.title-bottom{
   right: 0;
   left: auto;
 }
-.order-row .cart-section-block{
+
+.order-row .cart-section-block {
   border: none;
 }
-label{
+
+label {
   display: block;
 }
-.form-part label{
+
+.form-part label {
   margin-bottom: 15px;
+}
+
+.meeting-slide-card{
+  svg{
+    transition: 0.3s linear all;
+  }
+  &:hover{
+    svg{
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+}
+.header-secondary{
+  background: #F4F5F9;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  .header-inst-wrap{
+    background: #F4F5F9;
+    box-shadow: 0px 20px 59px -62px black;
+  }
+}
+.mail-form .default-button{
+  cursor: pointer;
+}
+.checkbox-label{
+  cursor: pointer;
+}
+.product-testimonials-first-row{
+  margin-bottom: 30px;
+}
+.product-comments{
+  margin-top: 30px;
+}
+.product-comments h2.inner-title{
+  font-size: 28px;
+}
+.video-courses-middle-card-img-wrap{
+  max-width: 210px;
+  max-height: 210px;
+  width: 210px;
+  height: 210px;
+  min-width: 210px;
+  min-height: 210px;
+  margin-right: 30px;
+  img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+  }
+}
+.blog-video-course-middle-card .price-row{
+  justify-content: flex-start;
+}
+.blog-video-course-middle-card{
+  padding: 20px;
+  border: 1px solid #E1E1E1;
+}
+.blog-video-course-middle-card-text-wrapper{
+  .title{
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .video-card-category{
+    text-align: left;
+  }
+  .default-button{
+    padding: 15px 50px;
+  }
+}
+.blog-video-course-middle-card{
+  margin-bottom: 20px;
+}
+.tabs-content-wrapper > *.active.block{
+  display: block;
+}
+.product-inner-rating-block{
+  .rating-block{
+    margin-top: -3px;
+  }
+}
+.product-inner-video-wrap{
+  .play-button{
+    img{
+      transition: 0.3s linear all;
+    }
+  }
+  &:hover{
+    .play-button{
+      img{
+        transform: scale(1.2);
+      }
+    }
+  }
 }

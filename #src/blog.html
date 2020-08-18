@@ -1,4 +1,9 @@
 @@include('template-parts/_header.html')
+<!-- добавить класс к хедеру -->
+<script>
+    let header = document.querySelector('.header');
+    header.classList.add('header-secondary')
+</script>
 <main>
     <div class="breadcrumbs-wrapper">
         <nav aria-label="breadcrumb">
@@ -499,7 +504,7 @@
                     </div>
                     <div class="last-blog-posts">
                         <h3 class="small-title title">
-                            Видеокурсы
+                            ПОСЛЕДНИЕ ЗАПИСИ
                         </h3>
                         <a href="#" class="small-blog-post-wrapper d-flex">
                             <div class="small-blog-post-image-wrap">

@@ -1,4 +1,8 @@
 @@include('template-parts/_header.html')
+<script>
+    let header = document.querySelector('.header');
+    header.classList.add('header-secondary')
+</script>
 <main>
     <div class="breadcrumbs-wrapper">
         <nav aria-label="breadcrumb">
@@ -23,322 +27,530 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-xl-4 col-md-6">
-                    <div class="product-image-wrap">
-                        <img src="img/p.jpg" class="product-image" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-5 col-md-6">
-                    <div class="product-inner-text-wrapper">
-                        <div class="product-inner-first-row">
-                            <div class="d-flex align-items-center justify-content-between">
+            <div class="tabs-content-wrapper">
+                    <div class="block active">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-4 col-md-6">
+                                <div class="product-image-wrap">
+                                    <img src="img/p.jpg" class="product-image" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-5 col-md-6">
+                                <div class="product-inner-text-wrapper">
+                                    <div class="product-inner-first-row">
+                                        <div class="d-flex align-items-center justify-content-between">
                                 <span class="product-category">
                                     Категория продукта
                                 </span>
-                                <div class="product-share product-share-desktop d-flex align-items-center justify-content-center">
+                                            <div class="product-share product-share-desktop d-flex align-items-center justify-content-center">
                                     <span>
                                         Поделиться:
                                     </span>
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <a href="#" class="product-share-item facebook-icon">
-                                            <svg width="16" height="16">
-                                                <use xlink:href="#facebook_icon"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product-share-item twitter_icon">
-                                            <svg width="16" height="16">
-                                                <use xlink:href="#twitter_icon"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product-share-item pinterest_icon">
-                                            <svg width="16" height="16">
-                                                <use xlink:href="#pinterest_icon"></use>
-                                            </svg>
-                                        </a>
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href="#" class="product-share-item facebook-icon">
+                                                        <svg width="16" height="16">
+                                                            <use xlink:href="#facebook_icon"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <a href="#" class="product-share-item twitter_icon">
+                                                        <svg width="16" height="16">
+                                                            <use xlink:href="#twitter_icon"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <a href="#" class="product-share-item pinterest_icon">
+                                                        <svg width="16" height="16">
+                                                            <use xlink:href="#pinterest_icon"></use>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h1 class="title product-inner-title">
-                            НЛП видео учебник. «Миссия и предназначение»
-                        </h1>
-                        <div class="d-flex align-items-center product-inner-rating-block">
-                            <div class="rating-block mr-4">
-                                <div class="rating-block-unrated"></div>
-                                <div class="rating-block-rated" style="width: 100%"></div>
-                            </div>
-                            <div class="reviews-number">
-                                <a href="#">
-                                    18 отзывов
-                                </a>
-                            </div>
-                        </div>
-                        <div class="product-inner-text">
-                            <p>
-                                “Миссия и Предназначение” - седьмая часть видео учебника НЛП. Несмотря на то, что
-                                все части логически выстроены в последовательный курс, обучение можно начинать
-                                самостоятельное с любой из них.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-around product-inner-page-last-row-wrapper">
-                            <div class="price-row d-flex align-items-center">
+                                    <h1 class="title product-inner-title">
+                                        НЛП видео учебник. «Миссия и предназначение»
+                                    </h1>
+                                    <div class="d-flex align-items-center product-inner-rating-block">
+                                        <div class="rating-block mr-4">
+                                            <div class="rating-block-unrated"></div>
+                                            <div class="rating-block-rated" style="width: 100%"></div>
+                                        </div>
+                                        <div class="reviews-number">
+                                            <a href="#">
+                                                18 отзывов
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner-text">
+                                        <p>
+                                            “Миссия и Предназначение” - седьмая часть видео учебника НЛП. Несмотря на
+                                            то,
+                                            что
+                                            все части логически выстроены в последовательный курс, обучение можно
+                                            начинать
+                                            самостоятельное с любой из них.
+                                        </p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-around product-inner-page-last-row-wrapper">
+                                        <div class="price-row d-flex align-items-center">
                                     <span class="price">
                                         1 789 грн
                                     </span>
-                                <span class="old-price">
+                                            <span class="old-price">
                                         1 940 грн
                                     </span>
-                            </div>
-                            <a href="#" class="default-button">
-                                КУПИТЬ
-                            </a>
-                        </div>
-                        <div class="product-share product-share-mobile d-flex  ">
+                                        </div>
+                                        <a href="#" class="default-button">
+                                            КУПИТЬ
+                                        </a>
+                                    </div>
+                                    <div class="product-share product-share-mobile d-flex  ">
                                     <span>
                                         Поделиться:
                                     </span>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a href="#" class="product-share-item facebook-icon">
-                                    <svg width="16" height="16">
-                                        <use xlink:href="#facebook_icon"></use>
-                                    </svg>
-                                </a>
-                                <a href="#" class="product-share-item twitter_icon">
-                                    <svg width="16" height="16">
-                                        <use xlink:href="#twitter_icon"></use>
-                                    </svg>
-                                </a>
-                                <a href="#" class="product-share-item pinterest_icon">
-                                    <svg width="16" height="16">
-                                        <use xlink:href="#pinterest_icon"></use>
-                                    </svg>
-                                </a>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <a href="#" class="product-share-item facebook-icon">
+                                                <svg width="16" height="16">
+                                                    <use xlink:href="#facebook_icon"></use>
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="product-share-item twitter_icon">
+                                                <svg width="16" height="16">
+                                                    <use xlink:href="#twitter_icon"></use>
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="product-share-item pinterest_icon">
+                                                <svg width="16" height="16">
+                                                    <use xlink:href="#pinterest_icon"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="product-inner-video-wrapper d-flex align-items-center justify-content-center flex-column">
-                        <div class="product-inner-video-wrap">
-                            <a data-fancybox href="https://www.youtube.com/watch?v=HBcCNNiwMQE">
-                                <img src="img/v1.png" alt="">
-                                <div class="play-button">
-                                    <img src="img/small-play-icon.svg" alt="">
+                            <div class="col-xl-2">
+                                <div class="product-inner-video-wrapper d-flex align-items-center justify-content-center flex-column">
+                                    <div class="product-inner-video-wrap">
+                                        <a data-fancybox href="https://www.youtube.com/watch?v=HBcCNNiwMQE">
+                                            <img src="img/v1.png" alt="">
+                                            <div class="play-button">
+                                                <img src="img/small-play-icon.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="product-inner-video-wrap">
+                                        <a data-fancybox href="https://www.youtube.com/watch?v=HBcCNNiwMQE">
+                                            <img src="img/v1.png" alt="">
+                                            <div class="play-button">
+                                                <img src="img/small-play-icon.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="product-inner-video-wrap">
-                            <a data-fancybox href="https://www.youtube.com/watch?v=HBcCNNiwMQE">
-                                <img src="img/v1.png" alt="">
-                                <div class="play-button">
-                                    <img src="img/small-play-icon.svg" alt="">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
 
-                    <div class="title product-inner-video-title">
+                                <!--<div class="title product-inner-video-title">
                         <span>
                             видео о товаре
                         </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="product-description section-inner section">
-        <div class="container">
+                                </div>-->
+                            </div>
+                        </div>
+                        <section class="product-description section-inner section">
+                            <div class="">
 
-            <h2 class="inner-small-title">
-                Описание
-            </h2>
-            <div class="col-xl-8 product-description-text-wrap">
-                <div class="product-description-text">
-                    <p>
-                        Эта часть видео учебника посвящена технологиям доступа к миссии, становлению целостной
-                        личности,
-                        интеграции жизненных сил и новым отношениям со своими ценностями.
-                        <br><br>
-                        Эффективные техники работы с ценностями и пониманием себя, как личности, с уровнями миссии и
-                        предназначения, с выстраиванием мощной системы личной силы.
-                        <br><br>
-                        Ясные и пошаговые методики личных направленных изменений, глубокое понимание того, как
-                        устроен
-                        любой проект, любая личность, любой успешный бренд.
-                        <br><br>
-                        Уникальные способы ресурсного взаимодействия с теневыми сторонами своей личности, системные
-                        подходы к использованию своих полезных я-концепций и (как вишенка на торте) технология «
-                        одна -
-                        не голодна», которая с помощью нлп методов поможет навести порядок в отношениях с едой (и не
-                        только с едой)
-                        <br><br>
-                        Кроме того, в этой части представлены простые и действенные способы речевого влияния (часто
-                        называемые технологиями манипуляции на смешении нейрологических уровней), с помощью которых
-                        вы
-                        быстро сможете составлять убедительные тексты любого уровня.
-                        <br><br>
-                        Методики, представленные в этой части видео учебника помогут вам в таких задачах как:
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="product-additional-commodity section-inner section">
-        <div class="container">
-            <h2 class="inner-small-title">
-                Вам также может понравиться
-            </h2>
-            <div class="product-swiper">
-                <div class="swiper-button-prev testimonials-prev">
-                    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.6162 7.86621L9.48242 15L16.6162 22.1337L18.3837 20.3662L13.0174 15L18.3837 9.63371L16.6162 7.86621Z"
-                        />
-                    </svg>
-                </div>
-                <div class="swiper-button-next testimonials-next">
-                    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.3838 22.1338L20.5176 15L13.3838 7.86629L11.6163 9.63379L16.9826 15L11.6163 20.3663L13.3838 22.1338Z"
-                        />
-                    </svg>
-                </div>
-                <div class="swiper-container product-inner-swiper">
-                    <div class="row swiper-wrapper">
-                        <div class="swiper-slide col-lg-3 col-md-6">
-                            <div class="video-courses-card">
-                                <div class="card-features">
-                                    <div class="cart-feature">
-                                        sale - 40%
-                                    </div>
-                                </div>
-                                <a href="#" class="video-courses-card-img-wrap">
-                                    <img src="img/video-1.jpg" alt="">
-                                </a>
-                                <div class="video-courses-card-body">
-                            <span class="video-card-category">
-                                Категория продукта
-                            </span>
-                                    <a href="#" class="title cart-title vcourses-title">
-                                        ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
-                                    </a>
-                                    <div class="cart-text-wrapper">
-                                        <div class="price-row d-flex align-items-center">
-                                    <span class="price-default">
-                                        1 789 грн
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
-                                        <a href="#" class="default-button">
-                                            Купить
-                                        </a>
+                                <h2 class="inner-small-title">
+                                    Описание
+                                </h2>
+                                <div class="col-xl-8 product-description-text-wrap">
+                                    <div class="product-description-text">
+                                        <p>
+                                            Эта часть видео учебника посвящена технологиям доступа к миссии, становлению
+                                            целостной
+                                            личности,
+                                            интеграции жизненных сил и новым отношениям со своими ценностями.
+                                            <br><br>
+                                            Эффективные техники работы с ценностями и пониманием себя, как личности, с
+                                            уровнями миссии и
+                                            предназначения, с выстраиванием мощной системы личной силы.
+                                            <br><br>
+                                            Ясные и пошаговые методики личных направленных изменений, глубокое понимание
+                                            того, как
+                                            устроен
+                                            любой проект, любая личность, любой успешный бренд.
+                                            <br><br>
+                                            Уникальные способы ресурсного взаимодействия с теневыми сторонами своей
+                                            личности, системные
+                                            подходы к использованию своих полезных я-концепций и (как вишенка на торте)
+                                            технология «
+                                            одна -
+                                            не голодна», которая с помощью нлп методов поможет навести порядок в
+                                            отношениях с едой (и не
+                                            только с едой)
+                                            <br><br>
+                                            Кроме того, в этой части представлены простые и действенные способы речевого
+                                            влияния (часто
+                                            называемые технологиями манипуляции на смешении нейрологических уровней), с
+                                            помощью которых
+                                            вы
+                                            быстро сможете составлять убедительные тексты любого уровня.
+                                            <br><br>
+                                            Методики, представленные в этой части видео учебника помогут вам в таких
+                                            задачах как:
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide col-lg-3 col-md-6">
-                            <div class="video-courses-card">
-                                <div class="card-features">
-                                    <div class="cart-feature">
-                                        sale - 40%
+                        </section>
+                        <section class="product-additional-commodity section-inner section">
+                            <div class="">
+                                <h2 class="inner-small-title">
+                                    Вам также может понравиться
+                                </h2>
+                                <div class="product-swiper">
+                                    <div class="swiper-button-prev testimonials-prev">
+                                        <svg width="30" height="30" viewBox="0 0 30 30"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.6162 7.86621L9.48242 15L16.6162 22.1337L18.3837 20.3662L13.0174 15L18.3837 9.63371L16.6162 7.86621Z"
+                                            />
+                                        </svg>
                                     </div>
-                                </div>
-                                <a href="#" class="video-courses-card-img-wrap">
-                                    <img src="img/video-1.jpg" alt="">
-                                </a>
-                                <div class="video-courses-card-body">
+                                    <div class="swiper-button-next testimonials-next">
+                                        <svg width="30" height="30" viewBox="0 0 30 30"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13.3838 22.1338L20.5176 15L13.3838 7.86629L11.6163 9.63379L16.9826 15L11.6163 20.3663L13.3838 22.1338Z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-container product-inner-swiper">
+                                        <div class="row swiper-wrapper">
+                                            <div class="swiper-slide col-lg-3 col-md-6">
+                                                <div class="video-courses-card">
+                                                    <div class="card-features">
+                                                        <div class="cart-feature">
+                                                            sale - 40%
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="video-courses-card-img-wrap">
+                                                        <img src="img/video-1.jpg" alt="">
+                                                    </a>
+                                                    <div class="video-courses-card-body">
                             <span class="video-card-category">
                                 Категория продукта
                             </span>
-                                    <a href="#" class="title cart-title vcourses-title">
-                                        ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
-                                    </a>
-                                    <div class="cart-text-wrapper">
-                                        <div class="price-row d-flex align-items-center">
+                                                        <a href="#" class="title cart-title vcourses-title">
+                                                            ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                                                        </a>
+                                                        <div class="cart-text-wrapper">
+                                                            <div class="price-row d-flex align-items-center">
                                     <span class="price-default">
                                         1 789 грн
                                     </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
+                                                            <a href="#" class="default-button">
+                                                                Купить
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide col-lg-3 col-md-6">
+                                                <div class="video-courses-card">
+                                                    <div class="card-features">
+                                                        <div class="cart-feature">
+                                                            sale - 40%
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="video-courses-card-img-wrap">
+                                                        <img src="img/video-1.jpg" alt="">
+                                                    </a>
+                                                    <div class="video-courses-card-body">
+                            <span class="video-card-category">
+                                Категория продукта
+                            </span>
+                                                        <a href="#" class="title cart-title vcourses-title">
+                                                            ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                                                        </a>
+                                                        <div class="cart-text-wrapper">
+                                                            <div class="price-row d-flex align-items-center">
+                                    <span class="price-default">
+                                        1 789 грн
+                                    </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
+                                                            <a href="#" class="default-button">
+                                                                Купить
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide col-lg-3 col-md-6">
+                                                <div class="video-courses-card">
+                                                    <div class="card-features">
+                                                        <div class="cart-feature">
+                                                            sale - 40%
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="video-courses-card-img-wrap">
+                                                        <img src="img/video-1.jpg" alt="">
+                                                    </a>
+                                                    <div class="video-courses-card-body">
+                            <span class="video-card-category">
+                                Категория продукта
+                            </span>
+                                                        <a href="#" class="title cart-title vcourses-title">
+                                                            ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                                                        </a>
+                                                        <div class="cart-text-wrapper">
+                                                            <div class="price-row d-flex align-items-center">
+                                    <span class="price-default">
+                                        1 789 грн
+                                    </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
+                                                            <a href="#" class="default-button">
+                                                                Купить
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide col-lg-3 col-md-6">
+                                                <div class="video-courses-card">
+                                                    <div class="card-features">
+                                                        <div class="cart-feature">
+                                                            sale - 40%
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="video-courses-card-img-wrap">
+                                                        <img src="img/video-1.jpg" alt="">
+                                                    </a>
+                                                    <div class="video-courses-card-body">
+                            <span class="video-card-category">
+                                Категория продукта
+                            </span>
+                                                        <a href="#" class="title cart-title vcourses-title">
+                                                            ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                                                        </a>
+                                                        <div class="cart-text-wrapper">
+                                                            <div class="price-row d-flex align-items-center">
+                                    <span class="price-default">
+                                        1 789 грн
+                                    </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
+                                                            <a href="#" class="default-button">
+                                                                Купить
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
-                                        <a href="#" class="default-button">
-                                            Купить
-                                        </a>
+                                        <div class="swiper-pagination"></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide col-lg-3 col-md-6">
-                            <div class="video-courses-card">
-                                <div class="card-features">
-                                    <div class="cart-feature">
-                                        sale - 40%
-                                    </div>
-                                </div>
-                                <a href="#" class="video-courses-card-img-wrap">
-                                    <img src="img/video-1.jpg" alt="">
-                                </a>
-                                <div class="video-courses-card-body">
-                            <span class="video-card-category">
-                                Категория продукта
-                            </span>
-                                    <a href="#" class="title cart-title vcourses-title">
-                                        ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
+                        </section>
+                    </div>
+                <div class=" block">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="blog-post-comments product-comments">
+                                <div class="d-flex blog-post-comments-first-row align-items-center justify-content-between">
+                                    <h2 class="inner-title text-left mb-0">
+                                        Отзывы покупателей 18
+                                    </h2>
+                                    <a href="#" class="default-button white-button">
+                                        НАПИСАТЬ ОТЗЫВ
                                     </a>
-                                    <div class="cart-text-wrapper">
-                                        <div class="price-row d-flex align-items-center">
-                                    <span class="price-default">
-                                        1 789 грн
-                                    </span>
+                                </div>
+
+                                <div class="comments-wrapper">
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
-                                        <a href="#" class="default-button">
-                                            Купить
-                                        </a>
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment d-flex align-items-center">
+                                        <div class="comment-left-side">
+                                            <div class="comment-name">
+                                                Даша
+                                            </div>
+                                            <div class="rating-block">
+                                                <div class="rating-block-unrated"></div>
+                                                <div class="rating-block-rated" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-right-side">
+                                            <p>
+                                                Хочется сказать огромную благодарность за такой очень ценный видео курс!
+                                                Как
+                                                всегда на высоком уровне объясняет и уже чувствую результат после одного
+                                                прослушивания!
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
-                        <div class="swiper-slide col-lg-3 col-md-6">
-                            <div class="video-courses-card">
-                                <div class="card-features">
-                                    <div class="cart-feature">
-                                        sale - 40%
-                                    </div>
-                                </div>
-                                <a href="#" class="video-courses-card-img-wrap">
+                        <div class="col-lg-5">
+                            <div class="blog-video-course-middle-card d-flex align-items-center">
+                                <div class="video-courses-middle-card-img-wrap">
                                     <img src="img/video-1.jpg" alt="">
-                                </a>
-                                <div class="video-courses-card-body">
-                            <span class="video-card-category">
+                                </div>
+                                <div class="blog-video-course-middle-card-text-wrapper">
+                                    <span class="video-card-category">
                                 Категория продукта
                             </span>
-                                    <a href="#" class="title cart-title vcourses-title">
-                                        ЦЕНТР ЖЕНСКОГО РАЗВИТИЯ
-                                    </a>
+                                    <h4 class="title">
+                                        НЛП видео учебник. «Миссия и предназначение»
+                                    </h4>
                                     <div class="cart-text-wrapper">
                                         <div class="price-row d-flex align-items-center">
-                                    <span class="price-default">
+                                    <span class="price">
                                         1 789 грн
+                                    </span>
+                                            <span class="old-price">
+                                        1 940 грн
                                     </span>
                                         </div>
                                     </div>
-                                    <div class="vcouses-button-wrap d-flex align-items-center justify-content-center">
-                                        <a href="#" class="default-button">
-                                            Купить
-                                        </a>
-                                    </div>
+                                    <a href="#" class="default-button">
+                                        Купить
+                                    </a>
+
+
+                                </div>
+                            </div>
+                            <div class="product-share product-share-desktop d-flex align-items-center mb-5">
+                                    <span>
+                                        Поделиться:
+                                    </span>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a href="#" class="product-share-item facebook-icon">
+                                        <svg width="16" height="16">
+                                            <use xlink:href="#facebook_icon"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="product-share-item twitter_icon">
+                                        <svg width="16" height="16">
+                                            <use xlink:href="#twitter_icon"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="product-share-item pinterest_icon">
+                                        <svg width="16" height="16">
+                                            <use xlink:href="#pinterest_icon"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+
             </div>
+
         </div>
     </section>
+
 </main>
 @@include('template-parts/_footer.html')
 

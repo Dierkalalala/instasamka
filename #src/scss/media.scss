@@ -63,7 +63,11 @@
     flex-wrap: wrap;
   }
   .form-control {
-    width: 280px;
+    width: 220px;
+  }
+  .mail-form .default-button{
+    height: 50px;
+    font-size: 13px;
   }
   .mailing-text-wrap {
     p {
@@ -81,6 +85,16 @@
   .small-blog-post-text-wrap h4{
     font-size: 12px;
   }
+  .footer{
+    margin-top: 175px;
+  }
+  .footer-menu-wrap, .footer-icon-links {
+    padding-top: 73px;
+  }
+  .footer-lower-container{
+    font-size: 12px;
+  }
+
   .small-blog-post-image-wrap {
     width: 100px;
     height: 69px;
@@ -96,6 +110,130 @@
     height: 100px;
     margin-right: 5px;
   }
+  body{
+    font-size: 16px;
+  }
+  .blog-main-title{
+    font-size: 28px;
+  }
+  .blog-cart-title{
+    font-size: 14px;
+  }
+  .blog-inner-text p{
+    font-size: 14px;
+  }
+  .activity-block-title{
+    font-size: 16px;
+  }
+  .cart-item-price{
+    font-size: 20px;
+  }
+  .meeting-one-wrapper p{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .banner-wrapper-container{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .meeting-one-text-wrapper h2{
+    font-size: 28px;
+  }
+  h2.inner-title{
+    font-size: 35px;
+  }
+  .default-ul-wrap ul li{
+    font-size: 16px;
+  }
+  .reason-title{
+    font-size: 20px;
+  }
+  .personal-links-wrapper ul li a{
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .personal-history-table-body .personal-history-table-col{
+    font-size: 14px;
+  }
+  .testimonials-card h4{
+    font-size: 20px;
+  }
+  .video-courses-tab-item{
+    font-size: 18px;
+  }
+  .vcourses-title{
+    font-size: 16px;
+  }
+  .video-courses .default-button{
+    padding: 12px 40px;
+  }
+  .product-inner-title{
+    font-size: 24px;
+  }
+  .product-inner-text {
+    margin-bottom: 30px;
+  }
+  .product-inner-title{
+    line-height: 1.3;
+  }
+  .product-inner-page-last-row-wrapper{
+    justify-content: flex-start !important;
+    margin-bottom: 20px;
+    .price-row{
+      margin-right: 30px;
+    }
+  }
+  .product-comments h2.inner-title {
+    font-size: 22px;
+  }
+  .video-courses-middle-card-img-wrap {
+    max-width: 180px;
+    max-height: 180px;
+    width: 180px;
+    height: 180px;
+    min-width: 180px;
+    min-height: 180px;
+    margin-right: 20px;
+  }
+  .blog-video-course-middle-card-text-wrapper .title{
+    font-size: 15px;
+  }
+  .blog-video-course-middle-card .price-row{
+    margin-bottom: 5px;
+  }
+  .product-inner-page-last-row-wrapper{
+    .price{
+      margin-right: 20px;
+      font-size: 18px;
+    }
+    .old-price{
+      font-size: 16px;
+    }
+    .default-button{
+      padding: 13px 50px;
+    }
+  }
+  .price-row .price {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .blog-video-course-middle-card-text-wrapper .cart-text-wrapper {
+    margin-bottom: 0px;
+  }
+  .blog-video-course-middle-card-text-wrapper .default-button {
+    padding: 10px 50px;
+  }
+  .product-inner-video-wrap{
+    max-width: 100%;
+  }
+  .product-inner-video-wrapper{
+    height: auto;
+  }
+
+
+
 
 }
 
@@ -231,6 +369,10 @@
 @media (max-width: 991px) {
   .breadcrumb{
     padding-top: 30px;
+  }
+  .banner-wrapper-container{
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .order-details-personal-title{
     margin-top: 50px;
@@ -984,9 +1126,38 @@
     padding: 10px;
     padding-top: 35px;
   }
+  .blog-video-course-middle-card{
+    padding: 10px 10px 20px 10px;
+    flex-direction: column;
+  }
+  .video-courses-middle-card-img-wrap {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .blog-video-course-middle-card-text-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .blog-video-course-middle-card .price-row{
+    margin-bottom: 0;
+  }
+
+
+
 }
 @media (max-width: 360px) {
   .main-banner-cloud{
     bottom: 48%;
+  }
+  .video-courses-tab-item {
+    font-size: 16px;
   }
 }

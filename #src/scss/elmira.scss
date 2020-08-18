@@ -8,9 +8,8 @@ a:focus{
 }
 .activity-inner-title{
     font-family: Trajan, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     color: #222222;
-    line-height: 160%;
     margin-bottom: 20px;
 }
 .activity-inner-banner-text{
@@ -43,7 +42,8 @@ a:focus{
     background: linear-gradient(100.59deg, #F7EEF7 0%, #F4E9F4 100%);
     width: 75%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
+    opacity: 0.9;
 }
 .activity-blocks{
     margin-top: 50px;
@@ -63,6 +63,7 @@ a:focus{
         height: 212px !important;
         padding-top: 160px;
         position: relative;
+        z-index: 2;
     }
     .default-button{
         font-size: 15px;

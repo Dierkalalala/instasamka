@@ -1,4 +1,8 @@
 @@include('template-parts/_header.html')
+<script>
+    let header = document.querySelector('.header');
+    header.classList.add('header-secondary')
+</script>
 <main>
     <div class="breadcrumbs-wrapper">
         <nav aria-label="breadcrumb">
@@ -8,9 +12,10 @@
             </ol>
         </nav>
     </div>
-    <section class="banner-wrapper">
-        <img src="img/mb1.png" alt="" class="position-absolute meeting-big-banner">
-        <div class="big-banner-text-wrapper">
+    <div class="banner-wrapper-container">
+        <section class="banner-wrapper">
+            <img src="img/mb1.png" alt="" class="position-absolute meeting-big-banner">
+            <div class="big-banner-text-wrapper">
             <span class="d-flex align-items-center banner-beginning">
             <svg width="16" height="16">
                 <use xlink:href="#global_icon"></use>
@@ -20,21 +25,22 @@
                 </span>
                 </span>
 
-            <div class="banner-name">
-                АЛУНИКА ДОБРОВОЛЬСКАЯ
+                <div class="banner-name">
+                    АЛУНИКА ДОБРОВОЛЬСКАЯ
+                </div>
+                <div class="banner-title title">
+                    НЛП-Практик Базовый
+                    "LIFE LIFT"
+                </div>
+                <div class="banner-subtitle">
+                    Новые уровни жизни за 3 месяца работы над собой
+                </div>
+                <a href="#" class="default-button">
+                    ЗАПИСАТЬСЯ СЕЙЧАС!
+                </a>
             </div>
-            <div class="banner-title title">
-                НЛП-Практик Базовый
-                "LIFE LIFT"
-            </div>
-            <div class="banner-subtitle">
-                Новые уровни жизни за 3 месяца работы над собой
-            </div>
-            <a href="#" class="default-button">
-                ЗАПИСАТЬСЯ СЕЙЧАС!
-            </a>
-        </div>
-    </section>
+        </section>
+    </div>
     <section class="section meeting-one-text-wrapper">
         <div class="container">
             <h2>
