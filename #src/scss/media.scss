@@ -249,6 +249,10 @@
   .activity-block-title {
     font-size: 14px;
   }
+  .banner-wrapper{
+    max-height: 580px;
+    height: 580px;
+  }
 
 
 }
@@ -615,6 +619,12 @@
 
 }
 @media (max-width: 767px) {
+  .left-sided-background{
+    max-width: 100%;
+  }
+  .fancybox-slide{
+    padding: 15px;
+  }
   .video-courses-small-card-img-wrap {
     width: 119px;
     min-width: 119px;

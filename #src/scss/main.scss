@@ -522,7 +522,7 @@ h2.inner-title {
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   right: auto;
-  z-index: 222222;
+  z-index: 30;
   top: 220px;
   left: -35px;
   width: 70px;
@@ -559,7 +559,11 @@ h2.inner-title {
 .meetings .video-courses-btn-wrap {
   margin-top: 50px;
 }
-
+.banner-beginning {
+  svg{
+    margin-right: 5px;
+  }
+}
 .testimonials-swiper {
   max-width: 890px;
   margin: 0 auto;
@@ -2623,4 +2627,15 @@ label {
 
 .testimonials-card-img-wrap{
   display: block;
+}
+.header-inst-wrap {
+  display: block;
+  img{
+    transition: 0.5s linear all;
+  }
+  &:hover {
+    img{
+      transform: scale(1.1);
+    }
+  }
 }
